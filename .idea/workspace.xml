@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6541e45f-fe70-44e3-9ebc-3392d72fe8c0" name="Changes" comment="08_JUnit_Maven Ilya Kurylyov">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6541e45f-fe70-44e3-9ebc-3392d72fe8c0" name="Changes" comment="09_Exceptions Ilya Kurylyov" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Maven" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,9 +44,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ExampleMavenTest">
+  <component name="RunManager" selected="Application.division">
     <configuration name="ExampleMavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ExampleMavenTest" />
+      <module name="MavenMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="division" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.division" />
       <module name="MavenMaven" />
       <extension name="coverage">
         <pattern>
@@ -108,29 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleMavenTest.examplemaventest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ExampleMavenTest" />
-      <option name="METHOD_NAME" value="examplemaventest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.division" />
         <item itemvalue="JUnit.ExampleMavenTest" />
         <item itemvalue="JUnit.ExampleMavenTest.ExampleMavenTest" />
         <item itemvalue="Application.ExampleMavenTest" />
         <item itemvalue="JUnit.ExampleMavenTest.Cat" />
-        <item itemvalue="JUnit.ExampleMavenTest.examplemaventest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670783142561</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="08_JUnit_Maven Ilya Kurylyov">
+      <created>1670784942480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670784942480</updated>
+    </task>
+    <task id="LOCAL-00005" summary="09_Exceptions Ilya Kurylyov">
+      <created>1672931466832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672931466832</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +188,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="08_JUnit_Maven Ilya Kurylyov" />
-    <option name="LAST_COMMIT_MESSAGE" value="08_JUnit_Maven Ilya Kurylyov" />
+    <MESSAGE value="09_Exceptions Ilya Kurylyov" />
+    <option name="LAST_COMMIT_MESSAGE" value="09_Exceptions Ilya Kurylyov" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/division.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
