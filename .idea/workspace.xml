@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6541e45f-fe70-44e3-9ebc-3392d72fe8c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Cat/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Dog/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ExampleMavenTest.java" afterDir="false" />
+    <list default="true" id="6541e45f-fe70-44e3-9ebc-3392d72fe8c0" name="Changes" comment="Parameter_tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntroToRest/RestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/example/ExampleMavenTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,14 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ExampleMavenTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.RestTest">
     <configuration name="ExampleMavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ExampleMavenTest" />
       <module name="MavenMaven" />
@@ -75,22 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleMavenTest.Cat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ExampleMavenTest" />
-      <option name="METHOD_NAME" value="Cat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExampleMavenTest.ExampleMavenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenMaven" />
       <extension name="coverage">
@@ -107,29 +96,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleMavenTest.examplemaventest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="ParameterTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ExampleMavenTest" />
-      <option name="METHOD_NAME" value="examplemaventest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ParameterTest" />
+      <option name="MAIN_CLASS_NAME" value="ParameterTest.ParameterTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntroToRest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntroToRest" />
+      <option name="MAIN_CLASS_NAME" value="IntroToRest.RestTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestTest" />
+        <item itemvalue="JUnit.ParameterTests" />
         <item itemvalue="JUnit.ExampleMavenTest" />
         <item itemvalue="JUnit.ExampleMavenTest.ExampleMavenTest" />
         <item itemvalue="Application.ExampleMavenTest" />
-        <item itemvalue="JUnit.ExampleMavenTest.Cat" />
-        <item itemvalue="JUnit.ExampleMavenTest.examplemaventest" />
       </list>
     </recent_temporary>
   </component>
