@@ -169,7 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674060147738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="IntroToRest">
+      <created>1674232428237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674232428237</updated>
+    </task>
+    <task id="LOCAL-00005" summary="IntroToRest">
+      <created>1675717962713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675717962713</updated>
+    </task>
+    <task id="LOCAL-00006" summary="IntroToRest">
+      <created>1675718752374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675718752374</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,16 +207,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IntroToRest" />
     <option name="LAST_COMMIT_MESSAGE" value="IntroToRest" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/RestTest.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
