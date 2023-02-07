@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
         //Вывести в консоль максимальное и минимальное значения типа int, используя класс Integer
-        //   System.out.println(Integer.MIN_VALUE);
-        //   System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+        gitSystem.out.println(Integer.MAX_VALUE);
 
 
         //В переменную записать 3х значное натуральное число, вывести в консоль сумму цифр числа
