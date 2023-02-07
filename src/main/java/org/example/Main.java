@@ -4,11 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         //Вывести в консоль максимальное и минимальное значения типа int, используя класс Integer
         //   System.out.println(Integer.MIN_VALUE);
         //   System.out.println(Integer.MAX_VALUE);
-
-
 
 
         //В переменную записать 3х значное натуральное число, вывести в консоль сумму цифр числа
@@ -28,8 +27,15 @@ public class Main {
         int y = 6;
         int z = x % y;
         int s = x * y;
-        System.out.println(z);
-        // Напишите метод, который будет вычислять площадь прямоугольника
-        System.out.println(s);
+        System.out.println("Здесь вы получили: " +  z);
+    }
+
+    // Напишите метод, который будет вычислять площадь прямоугольника
+    public static void square() {
+        int a = 10;
+        int b = 10;
+        int s = a * b;
+        System.out.println("Площадь прямоугольника: " +s);
     }
 }
+
